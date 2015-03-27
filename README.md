@@ -8,7 +8,7 @@ Here are some of the challenges I've used and found useful.  I'm not finished re
 
 As I flesh out this list I will turn the list items into links to the actual problem details.
 
-+ Fibonacci
++ [Fibonacci](fibonacci/)
 + Reverse a String
 + Palendrome Detection
 
