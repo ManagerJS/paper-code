@@ -38,17 +38,17 @@ Candidates should eventually consider checking the type of `x` and immediately r
 
 State the problem clearly and consistently every time using the **Problem Statement** above. 
 
-+ Candidates commonly employ a loop to brute force the solution and they should be able to identify this possibility on their own. 
-+ Candidates may be embarrassed to attempt such a brute force technique.  You may probe them on their thinking and get around to reassuring them that a brute force solution would be an acceptable starting point.
-+ Candidates may fail to check the input. Point them to the examples showing the function being called with strings, `null`, and negative numbers.  See if they add checks to their solution.
-+ Once a brute force solution is employed, probe on how the candidate might make the solution more efficient. They should be able to identify at least some of the following ideas:
-  + What about exiting the loop as soon as `i*i > x`?
-  + What about performing a binary search rather than incrementing by 1?
-  + with the  exception of 0, and 1, the whole root of a number is never greater than `x/2`. What about terminating when `i > x/2`?
++ Candidates commonly use a loop to brute force the solution and they should be able to identify this possibility on their own. 
++ Using a brute force technique may embarrass candidates.  You might probe them on their thinking and get around to reassuring them that a brute force solution would be an acceptable starting point.
++ Candidates may fail to check the input. Point them to the examples calling the function with strings, `null`, and negative numbers.  See if they add checks to their solution.
++ If the candidate completes a brute force solution, probe on how they might make the solution more efficient. They should be able to identify at least some of the following ideas:
+    + What about exiting the loop as soon as `i*i > x`?
+    + What about performing a binary search rather than incrementing by 1?
+    + with the  exception of 0, and 1, the whole root of a number is never greater than `x/2`. What about terminating when `i > x/2`?
 
 ## Expanding Beyond JS
 
-Once the function has been defined you can quickly probe into their comfort with assembling web pages by asking them to expand their solution into a simple web page.
+Once the candidate has defined the function you can briefly probe into their comfort with assembling web pages by asking them to expand their solution into a simple web page.
 
 ### Problem Statement:
 
