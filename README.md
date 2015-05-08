@@ -12,7 +12,7 @@ As I flesh out this list I will turn the list items into links to the actual pro
 + [Whole Root](whole-root/)
 + Reverse a String
 + Palendrome Detection
-+ Memoization
++ [Memoization](memoize/)
 
 ## Story Type Problems
 
