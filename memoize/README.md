@@ -1,6 +1,6 @@
 # Memoization
 
-**JavaScript and Algorythms**
+**JavaScript and Algorithms**
 
 Part 1 is a discussion. Part 2 gets to the code. You can skip straight to 2 when time is short. This problem is particularly useful for gauging JavaScript familiarity since it takes advantage of functions as objects and closures.
 
