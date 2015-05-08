@@ -74,18 +74,25 @@ expensive(1); // fast
 - Variable names are descriptive.
 - Addresses “this” of the resulting function.
 
+### Variations
+
+If a candidate solves the problem handily you should probe into variations of the problem:
+
+- How would you make memoize work for functions of arity greater than one?
+- How would you allow users to modify the cache hit strategy? For example, perhaps only a subset of inputs can be memoized and the user of the library knows how to express that rule.
+- How would you control cache size?
+- How would you modify the solution to scale multiple nodes?
+
 ### Notes:
-Possible solution:
+Possible basic solution:
 ```javascript
 function memoize(orig) {
   var memo = {};
   return function (input) {
     if (memo.hasOwnProperty(input)) {
-      console.log("Hit!");
-      return memo[input];
+      return memo[input]; // cache hit
     } else {
-      console.log("Miss!");
-      return memo[input] = orig(input);
+      return memo[input] = orig(input); // cache miss
     }
   }
 }
