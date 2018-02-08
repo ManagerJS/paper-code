@@ -48,7 +48,7 @@ Once the function has been defined you can quickly probe into their comfort with
 
 Problem Statement:
 
-Given the function you wrote please put it in it's own file. Write the markup for an html page that when viewed in the browser shows an input field with a button. The form should let users type in a list of first names, split on spaces, and print a list of gift assignments. The page should load your reusable function and call it when the button is clicked.  Finally, link a CSS file to the page. In the CSS file write a rule that causes the giver names to be red and the receiver names to be red.
+Given the function you wrote please put it in it's own file. Write the markup for an html page that when viewed in the browser shows an input field with a button. The form should let users type in a list of first names, split on spaces, and print a list of gift assignments. The page should load your reusable function and call it when the button is clicked.  Finally, link a CSS file to the page. In the CSS file write a rule that causes the giver names to be red and the receiver names to be green.
 
 ## Implementation Quirks
 
