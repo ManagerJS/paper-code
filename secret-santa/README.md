@@ -8,7 +8,7 @@ One Christmas season a group of friends decides that they don't have money for e
 
 Everyone puts their names on slips of paper and puts them in a hat. Each takes a turn drawing a name out of the hat.
 
-There are three requirements for the gift assignments:
+There are four requirements for the gift assignments:
 
 1. Everyone gives a gift.
 
